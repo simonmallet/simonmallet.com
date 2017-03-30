@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Freelancer v3.3.7+1 (http://startbootstrap.com/template-overviews/freelancer)
- * Copyright 2013-2016 Start Bootstrap
+ * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
@@ -322,6 +322,18 @@ footer .footer-below {
   background: white;
   border: solid 2px white;
 }
+.box-social-network-nav-bar {
+  outline: 2px solid white;
+  outline-offset: -14px;
+}
+.btn-outline-nav-bar:hover,
+.btn-outline-nav-bar:focus,
+.btn-outline-nav-bar:active,
+.btn-outline-nav-bar.active {
+  color: #18BC9C;
+  outline: 2px solid white;
+  outline-offset: -14px;
+}
 .btn-primary {
   color: white;
   background-color: #2C3E50;
@@ -406,15 +418,34 @@ fieldset[disabled] .btn-success.active {
   color: #18BC9C;
   background-color: white;
 }
+.btn-social-base {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 45px;
+}
 .btn-social {
   display: inline-block;
   height: 50px;
   width: 50px;
-  border: 2px solid white;
   border-radius: 100%;
   text-align: center;
-  font-size: 20px;
   line-height: 45px;
+  font-size: 20px;
+  border: 2px solid white;
+}
+.btn-social-nav-bar {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 45px;
+  font-size: 12px;
+  outline: 2px solid white;
+  outline-offset: -14px;
 }
 .scroll-top {
   position: fixed;
